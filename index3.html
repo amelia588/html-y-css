@@ -11,39 +11,34 @@
   </head>
   <body>
     
-      <!--<form action="">
-        <label for="hora">
-          <span>hora</span>
-          <input type="time" id="hora" name="hora"/>
-
-        </label>
-        <label for="dia">
-          <span>dia</span>
-          <input type="date" id="dia" name="dia"/>
-
-        </label>
-        <label for="semana">
-          <span>semana</span>
-          <input type="week" id="semana" name="semana"/>
-
-        </label>
-        <label for="mes">
-          <span>mes</span>
-          <input type="month" id="mes" name="mes"/>
-
-        </label>
-        <input type="submit">
-      </form> comentamos-->
-      <form action="">
-        <label>
-          <span>
-            <input type="datetime-local" id="calendario" name="calendario">
-          </span>
-        </label>
-        <input type="submit">
-
-      </form>
-    
+      <main>
+        <form>
+          <label for="nombre">
+            <span>
+              cual es tu nombre
+            </span>
+            <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+          </label>
+          <label for="correo">
+            <span>
+              cual es tu correo
+            </span>
+            <input type="text" name="correo" id="correo" autocomplete="email" required>
+          </label>
+          <label for="pais">
+            <span>
+              en que pais vives
+            </span>
+            <input type="text" name="pais" id="pais" autocomplete="country" required>
+          </label>
+          <label for="cp">
+            <span>
+              cual es tu codigo postal
+            </span>
+            <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+          </label>
+        </form>
+      </main>
 
   </body>
 </html>
