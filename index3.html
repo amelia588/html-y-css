@@ -12,32 +12,21 @@
   <body>
     
       <main>
-        <form>
-          <label for="nombre">
-            <span>
-              cual es tu nombre
-            </span>
-            <input type="text" name="nombre" id="nombre" autocomplete="name" required>
-          </label>
-          <label for="correo">
-            <span>
-              cual es tu correo
-            </span>
-            <input type="text" name="correo" id="correo" autocomplete="email" required>
-          </label>
-          <label for="pais">
-            <span>
-              en que pais vives
-            </span>
-            <input type="text" name="pais" id="pais" autocomplete="country" required>
-          </label>
-          <label for="cp">
-            <span>
-              cual es tu codigo postal
-            </span>
-            <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
-          </label>
-        </form>
+        </main>
+        <!--<select name="cursos" id="">
+          <option value="javascrip">javascrip</option>
+          <option value="html">html</option>
+          <option value="css">css</option>
+          <option value="javascrip">javascrip</option>
+
+        </select>-->
+        <input list="cursos">
+        <datalist id="cursos">
+          <option value="javascrip">javascrip</option>
+          <option value="html">html</option>
+          <option value="css">css</option>
+          <option value="javascrip">javascrip</option>
+        </datalist>
       </main>
 
   </body>
